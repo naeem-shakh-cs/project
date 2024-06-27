@@ -1,0 +1,10 @@
+version: 1.0
+configuration:
+  has_webserver: true
+  ide_config:
+    default_open_files:
+      - src/index.ts
+    project_menu:
+      run: npm start
+      install: npm install
+      test: npm test
